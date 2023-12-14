@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="GSO-Net: Grid Surface Optimization via Learning Geometric Constraints">
+  <meta name="keywords" content="Nerfies, D-NeRF, NeRF">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GSO-Net: Grid Surface Optimization via Learning Geometric Constraints</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/favicon.svg">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-2 publication-title">GSO-Net: Grid Surface Optimization via Learning Geometric Constraints</h1>
+
+          <div class="is-size-3 Conference name">
+            <span class="author-block">AAAI2024</span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="None">Chaoyun Wang</a><sup>1</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://gr.xjtu.edu.cn/en/web/jxin/2">Jingmin Xin</a><sup>1</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?hl=zh-CN&user=iqMe3p8AAAAJ">Nanning Zheng</a><sup>1</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://caiguijiang.github.io/">Caigui Jiang</a><sup>1</sup><sup>&dagger;</sup>
+            </span>
+          </div>
+
+          <div class=" Conference name">
+            <span class="author-block"><sup>&dagger;</sup>Corresponding Author</span>,
+            <span class="author-block"><sup>1</sup>Xi 'an Jiaotong University</span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="https://arxiv.org/pdf/2011.12948"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2011.12948"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Supplementary</span>
+                </a>
+              </span>
+              <!-- Video Link. -->
+              <span class="link-block">
+                <a href="https://www.youtube.com/watch?v=MrKrnHhk8IA"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                  </span>
+                  <span>Video</span>
+                </a>
+              </span>
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/google/nerfies"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+               <!-- Poster Link. -->
+              <span class="link-block">
+                <a href="https://github.com/google/nerfies/releases/tag/0.1"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="far fa-images"></i>
+                  </span>
+                  <span>Poster</span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+
+        <div class="columns is-centered has-text-centered">
+            <img src="./static/images/GSO-Net.jpg"
+                 class="interpolation-image"
+                 alt="Interpolate start reference image."/>
+        </div>
+
+        <div class="content has-text-justified">
+          <p>
+            In the context of surface representations, we find a natural structural similarity between grid surface and image data.
+            Motivated by this inspiration, we propose a novel approach:
+            encoding grid surfaces as geometric images and using image processing methods to address surface optimization-related problems.
+            As a result, we have created the first dataset for grid surface optimization and
+            devised a learning-based grid surface optimization network specifically tailored to geometric images,
+            addressing the surface optimization problem through a data-driven learning of geometric constraints paradigm.
+            We conduct extensive experiments on developable surface optimization, surface flattening,
+            and surface denoising tasks using the designed network and datasets.
+            The results demonstrate that our proposed method not only addresses the surface optimization problem
+            better than traditional numerical optimization methods, especially for complex surfaces,
+            but also boosts the optimization speed by multiple orders of magnitude.
+            This pioneering study successfully applies deep learning methods to the field of surface optimization
+            and provides a new solution paradigm for similar tasks, which will provide inspiration
+            and guidance for future developments in the field of discrete surface optimization.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+
+    <!-- Paper video. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Video</h2>
+        <div class="publication-video">
+          <iframe src="https://www.youtube.com/embed/MrKrnHhk8IA?rel=0&amp;showinfo=0"
+                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+    <!--/ Paper video. -->
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <!-- Visual Effects. -->
+      <div class="columns">
+        <div class="column is-2-quarters">
+          <h2 class="title is-3">Motivation</h2>
+          <img src="./static/images/grid-image.png" alt="Interpolate start reference image."/>
+        </div>
+      <div class="column is-1-quarter" style="display: flex; align-items: flex-end;">
+        <p>
+        There is a clear resemblance between the fixed topological structure of grid surface vertices and the arrangement of image pixels,
+          so the corresponding vertex position (x,y,z) in the grid surface and the pixel color (r,g,b) in the image can be transformed to each other.
+        This method allows for a lossless transformation of surface information,
+          thus turning the surface optimization problem into an image processing problem.
+          This conversion fits the prevalent deep learning image processing methods.
+        </p>
+      </div>
+      </div>
+    </div>
+    <!--/ Matting. -->
+
+    <!-- Animation. -->
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Dataset</h2>
+        <div class="content has-text-justified">
+          <p>
+            In surface construction, we construct Bessel surfaces of various shapes
+            by using different number and arrangement of 3D control points and different degrees of Bessel curves,
+            and define different surface features to ensure the rich diversity of surface dataset.
+          </p>
+          <img src="./static/images/dataset-sample.jpg" alt="Interpolate start reference image."/>
+        </div>
+           </div>
+         </div>
+        <br/>
+        <!--/ Interpolating. -->
+
+    <div class="columns is-centered">
+  <div class="column is-full-width">
+    <h2 class="title is-3">Result</h2>
+        <!-- Re-rendering. -->
+        <h3 class="title is-4">Developable Surface Optimization</h3>
+        <div class="content has-text-justified">
+          <p>
+            In the task of developable surface optimization, where (a) is the input model,
+            b is the optimization result of the traditional algorithm,
+            and (c)(d)(e) is the optimization result of the method adopted in this paper.
+            Under the condition of developability, the model corresponding to the method
+            proposed in this paper has smaller deformation and the corresponding heat map color is lighter.
+          </p>
+          <img src="./static/images/multi-develop_few_single-heatmap.jpg" alt="Interpolate start reference image."/>
+        </div>
+
+        <h3 class="title is-4">Surface Flatten</h3>
+        <div class="content has-text-justified">
+          <p>
+            In the task of surface flattening,
+            where (a) is the input model, (b) is the initialization result, (c) is the traditional method of comparison,
+            and (d) and (e) are the methods proposed in this paper. As can be seen from the figure,
+            the lighter color of the heatmap of the method proposed in this paper means less error.
+          </p>
+          <img src="./static/images/multi-unfold_few_single-heatmap.jpg" alt="Interpolate start reference image."/>
+        </div>
+
+        <h3 class="title is-4">Surface Denoise</h3>
+        <div class="content has-text-justified">
+          <p>
+            In the surface denoising task, where (a) is a fairing surface,
+            (a) is the noise surface obtained by adding noise of different intensity to (A),
+            and (B) is the result of denoising (a) by using the method proposed in this paper.
+            It can be seen that our method can filter noise of different intensity well.
+          </p>
+          <img src="./static/images/multi-denosie_few_single.jpg" alt="Interpolate start reference image."/>
+        </div>
+
+
+        <!--/ Re-rendering. -->
+      </div>
+    </div>
+    <!--/ Animation. -->
+
+  </div>
+</section>
+
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@article{park2021nerfies,
+  author    = {Chaoyun Wang, Jingmin Xin, Nanning Zheng, Caigui Jiang1},
+  title     = {GSO-Net: Grid Surface Optimization via Learning Geometric Constraints},
+  journal   = {AAAI},
+  year      = {2024},
+}</code></pre>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+        <div class="content">
+          <p>
+            Thanks to <a href="https://github.com/nerfies/nerfies.github.io">nerfies</a> for the website template.
+          </p>
+        </div>
+      </div>
+    </div>
+</footer>
+
+</body>
+</html>
