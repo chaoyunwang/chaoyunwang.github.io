@@ -55,7 +55,7 @@
 
           <div class="is-size-5 publication-authors">
             <span class="author-block">
-              <a href="None">Chaoyun Wang</a><sup>1</sup>,
+              <a href="https://chaoyunwang.github.io/">Chaoyun Wang</a><sup>1</sup>,
             </span>
             <span class="author-block">
               <a href="https://gr.xjtu.edu.cn/en/web/jxin/2">Jingmin Xin</a><sup>1</sup>,
@@ -86,7 +86,7 @@
                 </a>
               </span>
               <span class="link-block">
-                <a href=""
+                <a href="https://pan.baidu.com/s/1ix180sdTiRMA4t00s09SXg?pwd=g88h"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fas fa-file-pdf"></i>
@@ -96,7 +96,7 @@
               </span>
               <!-- Video Link. -->
               <span class="link-block">
-                <a href=""
+                <a href="https://s3.amazonaws.com/pf-user-files-01/u-59356/uploads/2024-01-03/im23ydu/AAAI%202024%20GSO-Net_Grid%20Surface%20Optimization%20via%20Learning%20Geometric%20Constraints.mp4"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fab fa-youtube"></i>
@@ -106,7 +106,7 @@
               </span>
               <!-- Code Link. -->
               <span class="link-block">
-                <a href=""
+                <a href="https://github.com/chaoyunwang/GSO-Net"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fab fa-github"></i>
@@ -116,7 +116,7 @@
               </span>
                <!-- Poster Link. -->
               <span class="link-block">
-                <a href=""
+                <a href="https://s3.amazonaws.com/pf-user-files-01/u-59356/uploads/2024-01-03/xw13yt0/poster.pdf"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="far fa-images"></i>
@@ -172,7 +172,7 @@
       <div class="column is-four-fifths">
         <h2 class="title is-3">Video</h2>
         <div class="publication-video">
-          <iframe src="None"
+          <iframe src="https://s3.amazonaws.com/pf-user-files-01/u-59356/uploads/2024-01-03/im23ydu/AAAI%202024%20GSO-Net_Grid%20Surface%20Optimization%20via%20Learning%20Geometric%20Constraints.mp4"
                   frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
       </div>
@@ -191,13 +191,11 @@
           <h2 class="title is-3">Motivation</h2>
           <img src="./static/images/grid-image.png" alt="Interpolate start reference image."/>
         </div>
-      <div class="column is-1-quarter" style="display: flex; align-items: flex-end;">
+<!--      <div class="column is-1-quarter" style="display: flex; align-items: flex-end;">-->
+        <div class="column is-1-quarter" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
         <p>
-        There is a clear resemblance between the fixed topological structure of grid surface vertices and the arrangement of image pixels,
-          so the corresponding vertex position (x,y,z) in the grid surface and the pixel color (r,g,b) in the image can be transformed to each other.
-        This method allows for a lossless transformation of surface information,
-          thus turning the surface optimization problem into an image processing problem.
-          This conversion fits the prevalent deep learning image processing methods.
+        We observe a natural similarity in the data structure between the grid surface and the image.
+          Consequently, we approach the optimization problem of the grid surface as a task in image processing, addressing it through a learning-based solution.
         </p>
       </div>
       </div>
@@ -210,16 +208,31 @@
         <h2 class="title is-3">Dataset</h2>
         <div class="content has-text-justified">
           <p>
-            In surface construction, we construct Bessel surfaces of various shapes
+            We construct Bessel surfaces of various shapes
             by using different number and arrangement of 3D control points and different degrees of Bessel curves,
-            and define different surface features to ensure the rich diversity of surface dataset.
+            and define different surface features to ensure the rich diversity of surface dataset. Here are some examples of surfaces in the dataset:
           </p>
           <img src="./static/images/dataset-sample.jpg" alt="Interpolate start reference image."/>
         </div>
            </div>
-         </div>
-        <br/>
-        <!--/ Interpolating. -->
+    </div>
+
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Loss function</h2>
+        <div class="content has-text-justified">
+          <p>
+            The expected geometric properties of the surface are transformed into the loss function.
+            We found that deep learning methods allow us to use more straightforward and complex loss functions than traditional numerical optimization methods,
+            for example, we can directly use Gaussian curvature as the loss.
+            While constant convolution kernels are employed to calculate the edges formed by vertices.
+
+          </p>
+          <img src="./static/images/gauss.jpg" alt="Interpolate start reference image."/>
+          <img src="./static/images/kernel.jpg" alt="Interpolate start reference image."/>
+        </div>
+           </div>
+    </div>
 
     <div class="columns is-centered">
   <div class="column is-full-width">
