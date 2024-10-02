@@ -1,0 +1,9 @@
+@inproceedings{wang2024gso,
+  title={GSO-Net: Grid Surface Optimization via Learning Geometric Constraints},
+  author={Wang, Chaoyun and Xin, Jingmin and Zheng, Nanning and Jiang, Caigui},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={38},
+  number={8},
+  pages={8163--8171},
+  year={2024}
+}

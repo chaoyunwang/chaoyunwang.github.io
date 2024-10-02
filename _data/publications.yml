@@ -1,22 +1,24 @@
 main:
+  - title: Interactive Design of Developable Surfaces by Patch-based Learning
+    authors: <strong>Chaoyun Wang</strong>, Jianlei Wang, <a href="https://scholar.google.com/citations?hl=zh-CN&user=WbG27wQAAAAJ">Chengcheng Tang</a>, <a href="https://scholar.google.com/citations?hl=zh-CN&user=iqMe3p8AAAAJ">Nanning Zheng</a>, <a href="https://caiguijiang.github.io/">Caigui Jiang†</a>(† Corresponding authors)
+    conference_short:
+    conference:
+    pdf:
+    code:
+    page:
+    bibtex:
+    image: ./assets/img/CHI2025.png
+    notes: Under Review
 
-  - title: Continual Learning for Abdominal Multi-Organ and Tumor Segmentation
-    authors: <strong>Chaoyun Wang<strong>, <a href="https://gr.xjtu.edu.cn/en/web/jxin/2">Jingmin Xin</a>, Nanning Zheng, Caigui Jiang* (*Corresponding authors)
+  - title: "GSO-Net: Grid Surface Optimization via Learning Geometric Constraints"
+    authors: <strong>Chaoyun Wang</strong>, <a href="https://gr.xjtu.edu.cn/en/web/jxin/2">Jingmin Xin</a>, <a href="https://scholar.google.com/citations?hl=zh-CN&user=iqMe3p8AAAAJ">Nanning Zheng</a>, <a href="https://caiguijiang.github.io/">Caigui Jiang†</a>(† Corresponding authors)
     conference_short: AAAI
     conference: 38th AAAI Conference on Artificial Intelligence<strong>(AAAI)</strong>, 2024.
-    pdf: https://arxiv.org/pdf/2306.00988.pdf
-    code: https://github.com/MrGiovanni/ContinualLearning
-    bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/teaser_example_2.png
-    # notes: Early Accept
+    pdf: https://ojs.aaai.org/index.php/AAAI/article/view/28656
+    code: https://github.com/chaoyunwang/GSO-Net
+    page: https://chaoyunwang.github.io/GSO-Net/
+    bibtex: ./assets/files/AAAI2024.txt
+    notes:
+    image: ./assets/img/GSO-Net2.jpg
 
-  - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
-    authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
-    conference_short: CVPR
-    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.
-    pdf: https://arxiv.org/pdf/2002.10211.pdf
-    code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-    page: https://class-il.mpi-inf.mpg.de/mnemonics/
-    bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-    notes: Oral Presentation
-    image: ./assets/img/teaser_example.png
+
