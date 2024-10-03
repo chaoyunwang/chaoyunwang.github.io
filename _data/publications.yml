@@ -1,6 +1,6 @@
 main:
   - title: Interactive Design of Developable Surfaces by Patch-based Learning
-    authors: <strong>Chaoyun Wang</strong>, Jianlei Wang, <a href="https://scholar.google.com/citations?hl=zh-CN&user=WbG27wQAAAAJ">Chengcheng Tang</a>, <a href="https://scholar.google.com/citations?hl=zh-CN&user=iqMe3p8AAAAJ">Nanning Zheng</a>, <a href="https://caiguijiang.github.io/">Caigui Jiang†</a>(† Corresponding authors)
+    authors: <strong>Chaoyun Wang</strong>, Jianlei Wang, <a href="https://scholar.google.com/citations?hl=zh-CN&user=WbG27wQAAAAJ">Chengcheng Tang</a>, <a href="https://scholar.google.com/citations?hl=zh-CN&user=iqMe3p8AAAAJ">Nanning Zheng</a>, <a href="https://caiguijiang.github.io/">Caigui Jiang</a>
     conference_short:
     conference:
     pdf:
@@ -11,7 +11,7 @@ main:
     notes: Under Review
 
   - title: "GSO-Net: Grid Surface Optimization via Learning Geometric Constraints"
-    authors: <strong>Chaoyun Wang</strong>, <a href="https://gr.xjtu.edu.cn/en/web/jxin/2">Jingmin Xin</a>, <a href="https://scholar.google.com/citations?hl=zh-CN&user=iqMe3p8AAAAJ">Nanning Zheng</a>, <a href="https://caiguijiang.github.io/">Caigui Jiang†</a>(† Corresponding authors)
+    authors: <strong>Chaoyun Wang</strong>, <a href="https://gr.xjtu.edu.cn/en/web/jxin/2">Jingmin Xin</a>, <a href="https://scholar.google.com/citations?hl=zh-CN&user=iqMe3p8AAAAJ">Nanning Zheng</a>, <a href="https://caiguijiang.github.io/">Caigui Jiang</a>
     conference_short: AAAI
     conference: 38th AAAI Conference on Artificial Intelligence<strong>(AAAI)</strong>, 2024.
     pdf: https://ojs.aaai.org/index.php/AAAI/article/view/28656
