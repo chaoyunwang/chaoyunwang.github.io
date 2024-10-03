@@ -1,0 +1,9 @@
+@article{zhang2021evaluating,
+  title={Evaluating the accuracy of breast cancer and molecular subtype diagnosis by ultrasound image deep learning model},
+  author={Zhang, Xianyu and Li, Hui and Wang, Chaoyun and Cheng, Wen and Zhu, Yuntao and Li, Dapeng and Jing, Hui and Li, Shu and Hou, Jiahui and Li, Jiaying and others},
+  journal={Frontiers in oncology},
+  volume={11},
+  pages={623506},
+  year={2021},
+  publisher={Frontiers Media SA}
+}

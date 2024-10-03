@@ -1,0 +1,7 @@
+@inproceedings{wang2020breast,
+  title={Breast Ultrasound Image Analysis based on Transfer Learning},
+  author={Wang, Chaoyun and Mo, Hongwei},
+  booktitle={Proceedings of the 2020 4th International Conference on Computer Science and Artificial Intelligence},
+  pages={115--121},
+  year={2020}
+}

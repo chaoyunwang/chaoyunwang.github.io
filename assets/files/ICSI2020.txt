@@ -1,0 +1,8 @@
+@inproceedings{mo2020method,
+  title={A method for localization and classification of breast ultrasound tumors},
+  author={Mo, Wanying and Zhu, Yuntao and Wang, Chaoyun},
+  booktitle={Advances in Swarm Intelligence: 11th International Conference, ICSI 2020, Belgrade, Serbia, July 14--20, 2020, Proceedings 11},
+  pages={564--574},
+  year={2020},
+  organization={Springer}
+}

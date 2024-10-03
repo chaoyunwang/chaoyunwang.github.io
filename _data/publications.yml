@@ -21,4 +21,46 @@ main:
     notes:
     image: ./assets/img/GSO-Net2.jpg
 
+  - title: "Evaluating the Accuracy of Breast Cancer and Molecular Subtype Diagnosis by Ultrasound Image Deep Learning Model"
+    authors: Xianyu Zhang*, Hui Li*, <strong>Chaoyun Wang*</strong>, Wen Cheng, Yuntao Zhu, Dapeng Li, Hui Jing, Shu Li, Jiahui Hou, Jiaying Li, Yingpu Li, Yashuang Zhao, Hongwei Mo, Da Pang (* Equal contribution)
+    conference_short:
+    conference: Frontiers in Oncology, 2021
+    pdf: https://www.frontiersin.org/journals/oncology/articles/10.3389/fonc.2021.623506/full
+    code:
+    page:
+    bibtex: ./assets/files/Frontiers_in_oncology.txt
+    notes:
+    image: ./assets/img/Frontiers_in_oncology.jpg
 
+  - title: "A Method for Localization and Classification of Breast Ultrasound Tumors"
+    authors: Wanying Mo, Yuntao Zhu, <strong>Chaoyun Wang</strong>
+    conference_short: ICSI
+    conference: Advances in Swarm Intelligence 11th International Conference, <strong>(ICSI)</strong>, 2020
+    pdf: https://link.springer.com/chapter/10.1007/978-3-030-53956-6_52
+    code:
+    page:
+    bibtex: ./assets/files/ICSI2020.txt
+    notes:
+    image: ./assets/img/ICSI2020.jpg
+
+  - title: "Breast Ultrasound Image Analysis based on Transfer Learning"
+    authors: <strong>Chaoyun Wang</strong>, Hongwei Mo
+    conference_short: CSAI
+    conference: 4th International Conference on Computer Science and Artificial Intelligence, <strong>(CSAI)</strong>, 2020
+    pdf: https://dl.acm.org/doi/abs/10.1145/3445815.3445835
+    code:
+    page:
+    bibtex: ./assets/files/CSAI2020.txt
+    notes:
+    image: ./assets/img/CSAI2020.jpg
+
+  - title: "Breast cancer diagnosis method based on multitask learning and BI-RADS assessments"
+    authors: <strong>Chaoyun Wang</strong>, Hongwei Mo
+    conference_short: CAIH
+    conference: Conference on Artificial Intelligence and Healthcare, <strong>(CAIH)</strong>, 2020
+    pdf: https://dl.acm.org/doi/abs/10.1145/3433996.3434045
+    code:
+    page:
+    bibtex: ./assets/files/CAIH2020.txt
+    notes:
+    image: ./assets/img/CAIH2020.jpg

@@ -1,0 +1,7 @@
+@inproceedings{wang2020breast,
+  title={Breast cancer diagnosis method based on multitask learning and BI-RADS assessments},
+  author={Wang, Chaoyun and Mo, Hongwei},
+  booktitle={Proceedings of the 2020 Conference on Artificial Intelligence and Healthcare},
+  pages={264--269},
+  year={2020}
+}
