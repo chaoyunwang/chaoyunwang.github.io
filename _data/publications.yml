@@ -1,4 +1,15 @@
 main:
+  - title: Axis-Aligned Document Dewarping
+    authors: <strong>Chaoyun Wang</strong>, <a href="https://jdily.github.io/">I-Chao Shen, <a href="https://scholar.google.com/citations?hl=zh-CN&user=iqMe3p8AAAAJ">Nanning Zheng</a>, <a href="https://www-ui.is.s.u-tokyo.ac.jp/~takeo/">Takeo Igarashi</a>, <a href="https://caiguijiang.github.io/">Caigui Jiang</a>
+    conference_short:
+    conference:
+    pdf:
+    code:
+    page:
+    bibtex:
+    image: ./assets/img/iccv2025.jpg
+    notes: Under Review
+
   - title: Interactive Design of Developable Surfaces by Patch-based Learning
     authors: <strong>Chaoyun Wang</strong>, Jianlei Wang, <a href="https://scholar.google.com/citations?hl=zh-CN&user=WbG27wQAAAAJ">Chengcheng Tang</a>, <a href="https://scholar.google.com/citations?hl=zh-CN&user=iqMe3p8AAAAJ">Nanning Zheng</a>, <a href="https://caiguijiang.github.io/">Caigui Jiang</a>
     conference_short:
