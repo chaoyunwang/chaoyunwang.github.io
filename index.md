@@ -49,6 +49,10 @@ When facing challenges, I believe I just need some time to adapt and resolve the
 ## Patents
 <ul>
   <li>
+    <strong>一种基于轴对齐性质的文档矫正方法</strong><br>
+    蒋才桂; <strong>王超运*</strong>; 郑南宁 (*First student author) CN202311410329.0 (2025.03.28)
+  </li>
+  <li>
     <strong>一种可展曲面优化、设计及模型分片可展逼近的方法</strong><br>
     蒋才桂; <strong>王超运*</strong>; 王建磊; 郑南宁 (*First student author) CN202311410329.0 (2024.09.27)
   </li>
