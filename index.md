@@ -10,16 +10,28 @@ layout: homepage
 
 [comment]: <> (I focus on applying artificial intelligence methods to computer graphics problems.)
 
-I was born in Fuyang, China in 1997, and am currently pursuing a PhD at the <a href="http://www.aiar.xjtu.edu.cn/#">Institute of Artificial Intelligence and Robotics</a> at <a href="http://en.xjtu.edu.cn">Xi’an Jiaotong University</a>. 
-My current research topic is intelligent optimization and application of developable surfaces, which use deep learning methods to solve geometric optimization problems, and apply geometric constraint properties to computer vision tasks. <br>
+[//]: # (I was born in Fuyang, China in 1997, and am currently pursuing a PhD at the <a href="http://www.aiar.xjtu.edu.cn/#">Institute of Artificial Intelligence and Robotics</a> at <a href="http://en.xjtu.edu.cn">Xi’an Jiaotong University</a>. )
 
-Throughout my academic and professional journey, I have explored various fields, ranging from aviation models to intelligent medical systems, and from intelligent security systems to geometric optimization. At each stage, I have achieved notable successes.
-This diverse research background has equipped me with the confidence and skills to tackle a wide array of research challenges, both now and in the future.
-When facing challenges, I believe I just need some time to adapt and resolve them.
+[//]: # (My current research topic is intelligent optimization and application of developable surfaces, which use deep learning methods to solve geometric optimization problems, and apply geometric constraint properties to computer vision tasks. <br>)
+
+[//]: # ()
+[//]: # (Throughout my academic and professional journey, I have explored various fields, ranging from aviation models to intelligent medical systems, and from intelligent security systems to geometric optimization. At each stage, I have achieved notable successes.)
+
+[//]: # (This diverse research background has equipped me with the confidence and skills to tackle a wide array of research challenges, both now and in the future.)
+
+[//]: # (When facing challenges, I believe I just need some time to adapt and resolve them.)
+
+I am a PhD candidate at the <a href="http://www.aiar.xjtu.edu.cn/#">Institute of Artificial Intelligence and Robotics</a> at <a href="http://en.xjtu.edu.cn">Xi’an Jiaotong University</a>. 
+
+My research focuses on the intelligent optimization and application of developable surfaces. I leverage deep learning methods to solve complex geometric optimization problems and apply geometric constraint properties to computer vision tasks.
+
+My academic journey has spanned diverse fields, from aviation models and intelligent medical systems to intelligent security and geometric optimization. This interdisciplinary experience has not only equipped me with a versatile skill set but has also provided me with the confidence to tackle a wide array of future research challenges.
+
+
 
 ## **Education**
-- **University of Tokyo** - *Tokyo, Japan*<br>
-  CSC Joint PhD Program (<a href="https://www-ui.is.s.u-tokyo.ac.jp/~takeo/">Takeo Igarashi</a>)  
+- **The University of Tokyo** - *Tokyo, Japan*<br>
+  Joint PhD in Creative Informatics (<a href="https://www-ui.is.s.u-tokyo.ac.jp/~takeo/">Takeo Igarashi</a>)  
   *Sep. 2024 – Present*
 
 - **Xi'an Jiaotong University** - *Xi'an, China*  
@@ -48,13 +60,17 @@ When facing challenges, I believe I just need some time to adapt and resolve the
 
 ## Patents
 <ul>
+ <li>
+    <strong>一种任意文档图像的级联式鲁棒矫正方法</strong><br>
+    蒋才桂; <strong>王超运*</strong>; 黄全鑫; 郑南宁 (*First student author) CN202510382541.3 (2025.09.09)
+  </li>
   <li>
     <strong>一种基于轴对齐性质的文档矫正方法</strong><br>
-    蒋才桂; <strong>王超运*</strong>; 郑南宁 (*First student author) CN202311410329.0 (2025.03.28)
+    蒋才桂; <strong>王超运*</strong>; 郑南宁 (*First student author) CN202510382541.3 (2025.03.28)
   </li>
   <li>
     <strong>一种可展曲面优化、设计及模型分片可展逼近的方法</strong><br>
-    蒋才桂; <strong>王超运*</strong>; 王建磊; 郑南宁 (*First student author) CN202311410329.0 (2024.09.27)
+    蒋才桂; <strong>王超运*</strong>; 王建磊; 郑南宁 (*First student author) CN202411304939.7 (2024.09.19)
   </li>
   <li>
     <strong>一种基于深度学习的网格曲面优化方法</strong><br>

@@ -1,9 +1,20 @@
 main:
-  - title: Axis-Aligned Document Dewarping
-    authors: <strong>Chaoyun Wang</strong>, <a href="https://jdily.github.io/">I-Chao Shen</a>, <a href="https://scholar.google.com/citations?hl=zh-CN&user=iqMe3p8AAAAJ">Nanning Zheng</a>, <a href="https://www-ui.is.s.u-tokyo.ac.jp/~takeo/">Takeo Igarashi</a>, <a href="https://caiguijiang.github.io/">Caigui Jiang</a>
+  - title: Cascaded Robust Rectification for Arbitrary Document Images
+    authors: <strong>Chaoyun Wang</strong>, Quanxin Huang, <a href="https://jdily.github.io/">I-Chao Shen</a>, <a href="https://www-ui.is.s.u-tokyo.ac.jp/~takeo/">Takeo Igarashi</a>, <a href="https://scholar.google.com/citations?hl=zh-CN&user=iqMe3p8AAAAJ">Nanning Zheng</a>, <a href="https://caiguijiang.github.io/">Caigui Jiang</a>
     conference_short:
     conference:
     pdf:
+    code:
+    page:
+    bibtex:
+    image: ./assets/img/tmm.png
+    notes: Under Review
+
+  - title: Axis-Aligned Document Dewarping
+    authors: <strong>Chaoyun Wang</strong>, <a href="https://jdily.github.io/">I-Chao Shen</a>, <a href="https://www-ui.is.s.u-tokyo.ac.jp/~takeo/">Takeo Igarashi</a>, <a href="https://scholar.google.com/citations?hl=zh-CN&user=iqMe3p8AAAAJ">Nanning Zheng</a>, <a href="https://caiguijiang.github.io/">Caigui Jiang</a>
+    conference_short:
+    conference:
+    pdf: https://arxiv.org/abs/2507.15000
     code:
     page:
     bibtex:
@@ -13,13 +24,12 @@ main:
   - title: Interactive Design of Developable Surfaces by Patch-based Learning
     authors: <strong>Chaoyun Wang</strong>, Jianlei Wang, <a href="https://scholar.google.com/citations?hl=zh-CN&user=WbG27wQAAAAJ">Chengcheng Tang</a>, <a href="https://scholar.google.com/citations?hl=zh-CN&user=iqMe3p8AAAAJ">Nanning Zheng</a>, <a href="https://caiguijiang.github.io/">Caigui Jiang</a>
     conference_short:
-    conference:
+    conference: Computer-Aided Design, 2025
     pdf:
     code:
     page:
     bibtex:
     image: ./assets/img/CHI2025.png
-    notes: Under Review
 
   - title: "GSO-Net: Grid Surface Optimization via Learning Geometric Constraints"
     authors: <strong>Chaoyun Wang</strong>, <a href="https://gr.xjtu.edu.cn/en/web/jxin/2">Jingmin Xin</a>, <a href="https://scholar.google.com/citations?hl=zh-CN&user=iqMe3p8AAAAJ">Nanning Zheng</a>, <a href="https://caiguijiang.github.io/">Caigui Jiang</a>
