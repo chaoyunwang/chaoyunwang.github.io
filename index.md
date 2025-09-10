@@ -21,13 +21,9 @@ layout: homepage
 
 [//]: # (When facing challenges, I believe I just need some time to adapt and resolve them.)
 
-I am a PhD candidate at the <a href="http://www.aiar.xjtu.edu.cn/#">Institute of Artificial Intelligence and Robotics</a> at <a href="http://en.xjtu.edu.cn">Xi’an Jiaotong University</a>. 
-
+I am a PhD candidate at the <a href="http://www.aiar.xjtu.edu.cn/#">Institute of Artificial Intelligence and Robotics</a> at <a href="http://en.xjtu.edu.cn">Xi’an Jiaotong University</a>.
 My research focuses on the intelligent optimization and application of developable surfaces. I leverage deep learning methods to solve complex geometric optimization problems and apply geometric constraint properties to computer vision tasks.
-
 My academic journey has spanned diverse fields, from aviation models and intelligent medical systems to intelligent security and geometric optimization. This interdisciplinary experience has not only equipped me with a versatile skill set but has also provided me with the confidence to tackle a wide array of future research challenges.
-
-
 
 ## **Education**
 - **The University of Tokyo** - *Tokyo, Japan*<br>
