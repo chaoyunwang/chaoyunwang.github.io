@@ -58,7 +58,7 @@ My academic journey has spanned diverse fields, from aviation models and intelli
 <ul>
  <li>
     <strong>一种任意文档图像的级联式鲁棒矫正方法</strong><br>
-    蒋才桂; <strong>王超运*</strong>; 黄全鑫; 郑南宁 (*First student author) CN202510382541.3 (2025.09.09)
+    蒋才桂; <strong>王超运*</strong>; 黄全鑫; 郑南宁 (*First student author) CN202511312711.7 (2025.09.15)
   </li>
   <li>
     <strong>一种基于轴对齐性质的文档矫正方法</strong><br>
