@@ -25,10 +25,10 @@ main:
     authors: <strong>Chaoyun Wang</strong>, Jianlei Wang, <a href="https://scholar.google.com/citations?hl=zh-CN&user=WbG27wQAAAAJ">Chengcheng Tang</a>, <a href="https://scholar.google.com/citations?hl=zh-CN&user=iqMe3p8AAAAJ">Nanning Zheng</a>, <a href="https://caiguijiang.github.io/">Caigui Jiang</a>
     conference_short:
     conference: Computer-Aided Design, 2025
-    pdf:
+    pdf: https://www.sciencedirect.com/science/article/pii/S0010448525001319
     code:
     page:
-    bibtex:
+    bibtex: ./assets/files/CAD2025.txt
     image: ./assets/img/CHI2025.png
 
   - title: "GSO-Net: Grid Surface Optimization via Learning Geometric Constraints"

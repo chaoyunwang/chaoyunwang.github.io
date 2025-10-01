@@ -28,7 +28,7 @@ My academic journey has spanned diverse fields, from aviation models and intelli
 ## **Education**
 - **The University of Tokyo** - *Tokyo, Japan*<br>
   Joint PhD in Creative Informatics (<a href="https://www-ui.is.s.u-tokyo.ac.jp/~takeo/">Takeo Igarashi</a>)  
-  *Sep. 2024 – Present*
+  *Sep. 2024 – Sep. 2025*
 
 - **Xi'an Jiaotong University** - *Xi'an, China*  
   PhD in Control Science and Engineering (<a href="https://gr.xjtu.edu.cn/en/web/jiang/home">Caigui Jiang</a>)  
