@@ -25,7 +25,7 @@ I am a PhD candidate at the <a href="http://www.aiar.xjtu.edu.cn/#">Institute of
 My research focuses on the intelligent optimization and application of developable surfaces. I leverage deep learning methods to solve complex geometric optimization problems and apply geometric constraint properties to computer vision tasks.
 My academic journey has spanned diverse fields, from aviation models and intelligent medical systems to intelligent security and geometric optimization. This interdisciplinary experience has not only equipped me with a versatile skill set but has also provided me with the confidence to tackle a wide array of future research challenges.
 
-## **Education**
+## Education
 - **The University of Tokyo** - *Tokyo, Japan*<br>
   Joint PhD in Creative Informatics (<a href="https://www-ui.is.s.u-tokyo.ac.jp/~takeo/">Takeo Igarashi</a>)  
   *Sep. 2024 – Sep. 2025*
@@ -42,7 +42,7 @@ My academic journey has spanned diverse fields, from aviation models and intelli
   Bachelor of Electrical Engineering and Automation  
   *Sep. 2014 – Jun. 2018*
   
-## **Experience**
+## Experience
 - **Zhejiang Dahua Technology Co., Ltd.** - *Hangzhou, China*<br>
   Intelligent Algorithm Engineer<br>
   *Apr. 2021--Jul. 2022*
@@ -95,6 +95,14 @@ My academic journey has spanned diverse fields, from aviation models and intelli
   <li>
     目标识别方法、电子设备及存储介质<br>
     <strong>王超运</strong>; 殷俊; 潘华东; 孙鹤 CN202111342318.4 (2021.11.12)
+  </li>
+</ul>
+
+## Grants
+<ul>
+Project/Research Project Leader
+  <li>
+  2023.01-2024.12 中央高校基本科研业务费自由探索与创新（学生类）项目(编号：xzy022023109), 结合人工智能技术的曲面优化及应用.
   </li>
 </ul>
 
