@@ -18,7 +18,7 @@ main:
     code:
     page:
     bibtex:
-    image: ./assets/img/iccv2025.jpg
+    image: ./assets/img/AAAI2026.png
 
   - title: Interactive Design of Developable Surfaces by Patch-based Learning
     authors: <strong>Chaoyun Wang</strong>, Jianlei Wang, <a href="https://scholar.google.com/citations?hl=zh-CN&user=WbG27wQAAAAJ">Chengcheng Tang</a>, <a href="https://scholar.google.com/citations?hl=zh-CN&user=iqMe3p8AAAAJ">Nanning Zheng</a>, <a href="https://caiguijiang.github.io/">Caigui Jiang</a>
