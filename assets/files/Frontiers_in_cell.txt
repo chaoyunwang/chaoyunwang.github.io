@@ -1,0 +1,9 @@
+@article{ding2025using,
+  title={Using deep learning to screening for hypertension in OCTA image to reduce the risk of serious complications},
+  author={Ding, Yiheng and Wei, Ziqiang and Wnag, Chaoyun and Li, Xinyue and Li, Bingbing and Liu, Xueting and Fu, Zhijie and Zhang, Hong and Mo, Hongwei},
+  journal={Frontiers in Cell and Developmental Biology},
+  volume={13},
+  pages={1581785},
+  year={2025},
+  publisher={Frontiers}
+}

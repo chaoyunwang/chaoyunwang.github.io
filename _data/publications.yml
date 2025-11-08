@@ -11,15 +11,14 @@ main:
     notes: Under Review
 
   - title: Axis-Aligned Document Dewarping
-    authors: <strong>Chaoyun Wang</strong>, <a href="https://jdily.github.io/">I-Chao Shen</a>, <a href="https://www-ui.is.s.u-tokyo.ac.jp/~takeo/">Takeo Igarashi</a>, <a href="https://scholar.google.com/citations?hl=zh-CN&user=iqMe3p8AAAAJ">Nanning Zheng</a>, <a href="https://caiguijiang.github.io/">Caigui Jiang</a>
-    conference_short:
-    conference:
+    authors: <strong>Chaoyun Wang</strong>, <a href="https://jdily.github.io/">I-Chao Shen</a>, <a href="https://www-ui.is.s.u-tokyo.ac.jp/~takeo/">Takeo Igarashi</a>, <a href="https://caiguijiang.github.io/">Caigui Jiang</a>
+    conference_short: AAAI
+    conference: AAAI2026 (Oral)
     pdf: https://arxiv.org/abs/2507.15000
     code:
     page:
     bibtex:
     image: ./assets/img/iccv2025.jpg
-    notes: Under Review
 
   - title: Interactive Design of Developable Surfaces by Patch-based Learning
     authors: <strong>Chaoyun Wang</strong>, Jianlei Wang, <a href="https://scholar.google.com/citations?hl=zh-CN&user=WbG27wQAAAAJ">Chengcheng Tang</a>, <a href="https://scholar.google.com/citations?hl=zh-CN&user=iqMe3p8AAAAJ">Nanning Zheng</a>, <a href="https://caiguijiang.github.io/">Caigui Jiang</a>
@@ -41,6 +40,17 @@ main:
     bibtex: ./assets/files/AAAI2024.txt
     notes:
     image: ./assets/img/GSO-Net2.jpg
+
+  - title: "Using deep learning to screen OCTA images for hypertension to reduce the risk of serious complications"
+    authors: Yiheng Ding, Ziqiang Wei, <strong>Chaoyun Wang*</strong>, Xinyue Li, Bingbing Li, Xueting Liu, Zhijie Fu, Hongwei Mo, Hong Zhang
+    conference_short:
+    conference: Frontiers in Cell and Developmental Biology, 2025
+    pdf: https://www.frontiersin.org/journals/cell-and-developmental-biology/articles/10.3389/fcell.2025.1581785/full
+    code:
+    page:
+    bibtex: ./assets/files/Frontiers_in_cell.txt
+    notes:
+    image: ./assets/img/Frontiers_in_cell.jpg
 
   - title: "Evaluating the Accuracy of Breast Cancer and Molecular Subtype Diagnosis by Ultrasound Image Deep Learning Model"
     authors: Xianyu Zhang*, Hui Li*, <strong>Chaoyun Wang*</strong>, Wen Cheng, Yuntao Zhu, Dapeng Li, Hui Jing, Shu Li, Jiahui Hou, Jiaying Li, Yingpu Li, Yashuang Zhao, Hongwei Mo, Da Pang (* Equal contribution)
