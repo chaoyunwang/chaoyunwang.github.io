@@ -39,10 +39,10 @@ main:
     page: https://chaoyunwang.github.io/GSO-Net/
     bibtex: ./assets/files/AAAI2024.txt
     notes:
-    image: ./assets/img/GSO-Net2.jpg
+    image: ./assets/img/GSO-Net.png
 
   - title: "Using deep learning to screen OCTA images for hypertension to reduce the risk of serious complications"
-    authors: Yiheng Ding, Ziqiang Wei, <strong>Chaoyun Wang*</strong>, Xinyue Li, Bingbing Li, Xueting Liu, Zhijie Fu, Hongwei Mo, Hong Zhang
+    authors: Yiheng Ding, Ziqiang Wei, <strong>Chaoyun Wang</strong>, Xinyue Li, Bingbing Li, Xueting Liu, Zhijie Fu, Hongwei Mo, Hong Zhang
     conference_short:
     conference: Frontiers in Cell and Developmental Biology, 2025
     pdf: https://www.frontiersin.org/journals/cell-and-developmental-biology/articles/10.3389/fcell.2025.1581785/full
