@@ -35,7 +35,7 @@ My academic journey has spanned diverse fields, from aviation models and intelli
   *Sep. 2022 – Present*
 
 - **Harbin Engineering University** - *Harbin, China*  
-  Master of Control Science and Engineering (<a href="https://homepage.hrbeu.edu.cn/web/mohongwei">Hongwei Mo</a>)<br>
+  Master of Control Science and Engineering (<a href="https://faculty.hrbeu.edu.cn/mohongwei">Hongwei Mo</a>)<br>
   *Sep. 2018 – Mar. 2021*
 
 - **Heilongjiang University of Science and Technology** - *Harbin, China*  
@@ -98,7 +98,7 @@ My academic journey has spanned diverse fields, from aviation models and intelli
   </li>
 </ul>
 
-## Grants
+## Funded Projects
 <ul>
 Project/Research Project Leader
   <li>
@@ -109,6 +109,8 @@ Project/Research Project Leader
 <section>
   <h2><strong>Competitions and Awards</strong></h2>
   <ul>
+    <li>Excellent Postgraduate of Xi 'an Jiaotong University in 2025</li>
+    <li>Excellent Postgraduate Cadre of Xi 'an Jiaotong University in 2024</li>
     <li>Honorary Title of Excellent Graduate of Harbin Engineering University in 2021</li>
     <li>Team leader of the "Huawei Cup" Second China Graduate Artificial Intelligence Innovation Competition in 2020</li>
     <li>The second prize of the International College Student Brain-like Computing Competition in 2019</li>
