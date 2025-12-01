@@ -3,7 +3,7 @@ main:
     authors: <strong>Chaoyun Wang</strong>, Quanxin Huang, <a href="https://jdily.github.io/">I-Chao Shen</a>, <a href="https://www-ui.is.s.u-tokyo.ac.jp/~takeo/">Takeo Igarashi</a>, <a href="https://scholar.google.com/citations?hl=zh-CN&user=iqMe3p8AAAAJ">Nanning Zheng</a>, <a href="https://caiguijiang.github.io/">Caigui Jiang</a>
     conference_short:
     conference:
-    pdf:
+    pdf: https://arxiv.org/abs/2511.23150
     code:
     page:
     bibtex:
