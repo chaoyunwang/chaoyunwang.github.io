@@ -1,0 +1,6 @@
+@article{wang2025axis,
+  title={Axis-Aligned Document Dewarping},
+  author={Wang, Chaoyun and Shen, I and Igarashi, Takeo and Jiang, Caigui and others},
+  journal={arXiv preprint arXiv:2507.15000},
+  year={2025}
+}

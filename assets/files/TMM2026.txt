@@ -1,0 +1,6 @@
+@article{wang2025cascaded,
+  title={Cascaded Robust Rectification for Arbitrary Document Images},
+  author={Wang, Chaoyun and Huang, Quanxin and Shen, I and Igarashi, Takeo and Zheng, Nanning and Jiang, Caigui and others},
+  journal={arXiv preprint arXiv:2511.23150},
+  year={2025}
+}

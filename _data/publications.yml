@@ -1,27 +1,27 @@
 main:
   - title: Cascaded Robust Rectification for Arbitrary Document Images
     authors: <strong>Chaoyun Wang</strong>, Quanxin Huang, <a href="https://jdily.github.io/">I-Chao Shen</a>, <a href="https://www-ui.is.s.u-tokyo.ac.jp/~takeo/">Takeo Igarashi</a>, <a href="https://scholar.google.com/citations?hl=zh-CN&user=iqMe3p8AAAAJ">Nanning Zheng</a>, <a href="https://caiguijiang.github.io/">Caigui Jiang</a>
-    conference_short:
+    conference_short: TMM
     conference: IEEE Transactions on Multimedia, 2026
     pdf: https://arxiv.org/abs/2511.23150
-    code:
+    code: https://github.com/chaoyunwang/ArbDR
     page:
-    bibtex:
+    bibtex: ./assets/files/TMM2026.txt
     image: ./assets/img/tmm.png
 
   - title: Axis-Aligned Document Dewarping
     authors: <strong>Chaoyun Wang</strong>, <a href="https://jdily.github.io/">I-Chao Shen</a>, <a href="https://www-ui.is.s.u-tokyo.ac.jp/~takeo/">Takeo Igarashi</a>, <a href="https://caiguijiang.github.io/">Caigui Jiang</a>
     conference_short: AAAI
-    conference: AAAI2026 (Oral)
+    conference: AAAI 2026 (Oral)
     pdf: https://arxiv.org/abs/2507.15000
-    code:
+    code: https://github.com/chaoyunwang/AADD
     page:
-    bibtex:
+    bibtex: ./assets/files/AAAI2026.txt
     image: ./assets/img/AAAI2026.png
 
   - title: Interactive Design of Developable Surfaces by Patch-based Learning
     authors: <strong>Chaoyun Wang</strong>, Jianlei Wang, <a href="https://scholar.google.com/citations?hl=zh-CN&user=WbG27wQAAAAJ">Chengcheng Tang</a>, <a href="https://scholar.google.com/citations?hl=zh-CN&user=iqMe3p8AAAAJ">Nanning Zheng</a>, <a href="https://caiguijiang.github.io/">Caigui Jiang</a>
-    conference_short:
+    conference_short: CAD
     conference: Computer-Aided Design, 2025
     pdf: https://www.sciencedirect.com/science/article/pii/S0010448525001319
     code:
@@ -32,7 +32,7 @@ main:
   - title: "GSO-Net: Grid Surface Optimization via Learning Geometric Constraints"
     authors: <strong>Chaoyun Wang</strong>, <a href="https://gr.xjtu.edu.cn/en/web/jxin/2">Jingmin Xin</a>, <a href="https://scholar.google.com/citations?hl=zh-CN&user=iqMe3p8AAAAJ">Nanning Zheng</a>, <a href="https://caiguijiang.github.io/">Caigui Jiang</a>
     conference_short: AAAI
-    conference: 38th AAAI Conference on Artificial Intelligence<strong>(AAAI)</strong>, 2024.
+    conference: AAAI 2024
     pdf: https://ojs.aaai.org/index.php/AAAI/article/view/28656
     code: https://github.com/chaoyunwang/GSO-Net
     page: https://chaoyunwang.github.io/GSO-Net/
