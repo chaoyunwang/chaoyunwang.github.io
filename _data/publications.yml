@@ -24,7 +24,7 @@ main:
     conference_short: CAD
     conference: Computer-Aided Design, 2025
     pdf: https://www.sciencedirect.com/science/article/pii/S0010448525001319
-    code:
+    code: https://github.com/chaoyunwang/I-DevNet
     page:
     bibtex: ./assets/files/CAD2025.txt
     image: ./assets/img/CHI2025.png
