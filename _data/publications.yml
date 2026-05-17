@@ -1,4 +1,14 @@
 main:
+  - title: Inverse-Rendered Document Reconstruction
+    authors: <strong>Chaoyun Wang</strong>, Quanxin Huang, <a href="https://scholar.google.com/citations?hl=zh-CN&user=iqMe3p8AAAAJ">Nanning Zheng</a>, <a href="https://caiguijiang.github.io/">Caigui Jiang</a>
+    conference_short:
+    conference:
+    pdf: https://arxiv.org/abs/2511.23150
+    code: https://github.com/chaoyunwang/ArbDR
+    page:
+    bibtex: ./assets/files/TMM2026.txt
+    image: ./assets/img/MM2026.png
+
   - title: Cascaded Robust Rectification for Arbitrary Document Images
     authors: <strong>Chaoyun Wang</strong>, Quanxin Huang, <a href="https://jdily.github.io/">I-Chao Shen</a>, <a href="https://www-ui.is.s.u-tokyo.ac.jp/~takeo/">Takeo Igarashi</a>, <a href="https://scholar.google.com/citations?hl=zh-CN&user=iqMe3p8AAAAJ">Nanning Zheng</a>, <a href="https://caiguijiang.github.io/">Caigui Jiang</a>
     conference_short: TMM

@@ -57,6 +57,10 @@ My academic journey has spanned diverse fields, from aviation models and intelli
 ## Patents
 <ul>
  <li>
+    <strong>一种基于逆渲染的单视图文档三维重建与矫正方法及系统</strong><br>
+    蒋才桂; <strong>王超运*</strong>; 黄全鑫; 郑南宁 (*First student author) CN202610617282.2 (2026.05.07)
+  </li>
+ <li>
     <strong>一种任意文档图像的级联式鲁棒矫正方法</strong><br>
     蒋才桂; <strong>王超运*</strong>; 黄全鑫; 郑南宁 (*First student author) CN202511312711.7 (2025.09.15)
   </li>
@@ -77,23 +81,23 @@ My academic journey has spanned diverse fields, from aviation models and intelli
     <strong>王超运</strong>; 孙鹤; 潘华东; 殷俊 CN202210632202.2 (2022.05.31)
   </li>
   <li>
-    一种图像处理方法、装置、电子设备和存储介质<br>
+    <strong>一种图像处理方法、装置、电子设备和存储介质</strong><br>
     <strong>王超运</strong>; 孙鹤; 潘华东; 殷俊 CN202210591631.X (2022.05.27)
   </li>
   <li>
-    目标对象放置状态的检测方法及相关设备<br>
+    <strong>目标对象放置状态的检测方法及相关设备</strong><br>
     <strong>王超运</strong>; 孙鹤; 潘华东; 殷俊 CN202210604674.7 (2022.05.27)
   </li>
   <li>
-    一种数据清洗方法、装置及系统<br>
+    <strong>一种数据清洗方法、装置及系统</strong><br>
     <strong>王超运</strong>; 殷俊; 潘华东; 孙鹤 CN202111526828.7 (2021.12.14)
   </li>
   <li>
-    图像获取、目标识别、模型训练方法及设备<br>
+    <strong>图像获取、目标识别、模型训练方法及设备</strong><br>
     <strong>王超运</strong>; 殷俊; 潘华东; 孙鹤 CN202111339344.1 (2021.11.12)
   </li>
   <li>
-    目标识别方法、电子设备及存储介质<br>
+    <strong>目标识别方法、电子设备及存储介质</strong><br>
     <strong>王超运</strong>; 殷俊; 潘华东; 孙鹤 CN202111342318.4 (2021.11.12)
   </li>
 </ul>
