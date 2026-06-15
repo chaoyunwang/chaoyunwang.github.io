@@ -2,7 +2,7 @@ main:
   - title: Inverse-Rendered Document Reconstruction
     authors: <strong>Chaoyun Wang</strong>, Quanxin Huang, <a href="https://scholar.google.com/citations?hl=zh-CN&user=iqMe3p8AAAAJ">Nanning Zheng</a>, <a href="https://caiguijiang.github.io/">Caigui Jiang</a>
     conference_short:
-    conference:
+    conference: Under Review, 2026
     pdf: https://arxiv.org/abs/2511.23150
     code: https://github.com/chaoyunwang/ArbDR
     page:
@@ -22,7 +22,7 @@ main:
   - title: Axis-Aligned Document Dewarping
     authors: <strong>Chaoyun Wang</strong>, <a href="https://jdily.github.io/">I-Chao Shen</a>, <a href="https://www-ui.is.s.u-tokyo.ac.jp/~takeo/">Takeo Igarashi</a>, <a href="https://caiguijiang.github.io/">Caigui Jiang</a>
     conference_short: AAAI
-    conference: AAAI 2026 (Oral)
+    conference: AAAI 2026 (Oral, top4.5%)
     pdf: https://arxiv.org/abs/2507.15000
     code: https://github.com/chaoyunwang/AADD
     page:
