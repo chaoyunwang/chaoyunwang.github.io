@@ -1,6 +1,5 @@
-Personal homepage: [Chaoyun Wang](https://chaoyunwang.github.io/)
-## Acknowledgements
+# Chaoyun Wang Personal Homepage
 
-Our project uses the source code from the following repositories:
-* [pages-themes/minimal](https://github.com/pages-themes/minimal)
-* https://github.com/yaoyao-liu/minimal-light
+Source code for [chaoyunwang.github.io](https://chaoyunwang.github.io/), the personal academic homepage of Chaoyun Wang.
+
+The site is built with Jekyll and GitHub Pages.
