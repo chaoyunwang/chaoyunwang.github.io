@@ -46,6 +46,10 @@
         color: var(--cw-muted);
       }
 
+      html {
+        scroll-behavior: smooth;
+      }
+
       .wrapper {
         width: 1010px;
       }
@@ -184,6 +188,7 @@
         line-height: 1.15;
         margin: 1.95rem 0 0.85rem;
         padding-bottom: 0.28rem;
+        scroll-margin-top: 1.5rem;
       }
 
       section h2:first-child {
@@ -218,35 +223,50 @@
 
       .page-nav {
         position: fixed;
-        top: 3.45em;
-        left: calc(50% + 530px);
-        width: 190px;
-        border-left: 2px solid var(--cw-line);
-        padding: 0.15rem 0 0.15rem 16px;
-        font-size: 14px;
-        line-height: 1.35;
+        top: 3.35em;
+        left: calc(50% + 520px);
+        width: 220px;
+        border-left: 3px solid var(--cw-line);
+        padding: 0.1rem 0 0.1rem 18px;
+        font-size: 15.75px;
+        line-height: 1.3;
       }
 
-      .page-nav-title,
       .page-nav a {
         display: block;
       }
 
-      .page-nav-title {
-        margin: 0 0 0.85rem;
-        color: var(--cw-blue);
-        font-size: 13px;
-        font-weight: 700;
+      .page-nav a {
+        position: relative;
+        margin: 0 0 0.58rem;
+        padding: 0.22rem 0;
+        color: var(--cw-muted);
+        font-weight: 600;
+        transition: color 0.16s ease, transform 0.16s ease;
       }
 
-      .page-nav a {
-        margin: 0 0 0.68rem;
-        color: var(--cw-muted);
-        font-weight: 500;
+      .page-nav a:hover,
+      .page-nav a.is-active {
+        color: var(--cw-blue);
       }
 
       .page-nav a:hover {
-        color: var(--cw-blue);
+        transform: translateX(2px);
+      }
+
+      .page-nav a.is-active {
+        font-size: 16.5px;
+        font-weight: 700;
+      }
+
+      .page-nav a.is-active::before {
+        content: "";
+        position: absolute;
+        top: 0.35rem;
+        bottom: 0.35rem;
+        left: -21px;
+        width: 3px;
+        background: var(--cw-blue);
       }
 
       @media (prefers-color-scheme: dark) {
@@ -424,8 +444,7 @@
       {% endif %}
 
       </section>
-      <nav class="page-nav" aria-label="Page navigation">
-        <div class="page-nav-title">On this page</div>
+      <nav class="page-nav" aria-label="Section navigation">
         <a href="#about-me">About Me</a>
         <a href="#education">Education</a>
         <a href="#experience">Experience</a>
@@ -443,6 +462,62 @@
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+    <script>
+      (function () {
+        var nav = document.querySelector(".page-nav");
+        if (!nav) return;
+
+        var links = Array.prototype.slice.call(nav.querySelectorAll('a[href^="#"]'));
+        var sections = links.map(function (link) {
+          return document.getElementById(decodeURIComponent(link.hash.slice(1)));
+        }).filter(Boolean);
+
+        if (!sections.length) return;
+
+        var frame = null;
+
+        function setActive(id) {
+          links.forEach(function (link) {
+            var active = link.hash === "#" + id;
+            link.classList.toggle("is-active", active);
+            if (active) {
+              link.setAttribute("aria-current", "true");
+            } else {
+              link.removeAttribute("aria-current");
+            }
+          });
+        }
+
+        function updateActiveSection() {
+          var anchorLine = window.scrollY + Math.min(window.innerHeight * 0.3, 220);
+          var current = sections[0];
+
+          sections.forEach(function (section) {
+            if (section.offsetTop <= anchorLine) {
+              current = section;
+            }
+          });
+
+          setActive(current.id);
+          frame = null;
+        }
+
+        function requestUpdate() {
+          if (frame) return;
+          frame = window.requestAnimationFrame(updateActiveSection);
+        }
+
+        links.forEach(function (link) {
+          link.addEventListener("click", function () {
+            setActive(decodeURIComponent(link.hash.slice(1)));
+          });
+        });
+
+        window.addEventListener("scroll", requestUpdate, { passive: true });
+        window.addEventListener("resize", requestUpdate);
+        updateActiveSection();
+      })();
+    </script>
     {% if site.google_analytics %}
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
