@@ -116,7 +116,7 @@ My research focuses on **Geometric Intelligence for Digital and Physical Worlds*
 
 * **Excellent Postgraduate**, Xi'an Jiaotong University, 2025
 * **Excellent Postgraduate Cadre**, Xi'an Jiaotong University, 2024
-* **Excellent Graduate**, [Harbin Engineering University](https://english.hrbeu.edu.cn/), 2021
+* **Excellent Graduate**, Harbin Engineering University, 2021
 * **Team Leader**, "Huawei Cup" China Graduate Artificial Intelligence Innovation Competition, 2020
 * **Second Prize**, International College Student Brain-like Computing Competition, 2019
 * **Second Prize**, CCI Cup Medical Science and Technology Innovation Award, 2019

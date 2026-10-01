@@ -1,7 +1,8 @@
 # Basic Information 
 title: Chaoyun Wang
+chinese_name: 王超运
 position: Ph.D.
-affiliation: Xi 'an Jiaotong University
+affiliation: Xi'an Jiaotong University
 affiliation_link: http://en.xjtu.edu.cn
 email: chaoyunwang@stu.xjtu.edu.cn
 
@@ -10,7 +11,7 @@ email: chaoyunwang@stu.xjtu.edu.cn
 keywords: personal homepage
 description: Personal academic homepage of Chaoyun Wang.
 canonical: https://chaoyunwang.github.io/
-asset_version: 20261001-8
+asset_version: 20261001-11
 
 # Links 
 # If you don't need one of them, you may delete the corresponding line.

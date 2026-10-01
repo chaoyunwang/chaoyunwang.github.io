@@ -30,22 +30,61 @@
     <link rel="stylesheet" href="./assets/css/publications-no-dark-mode.css?v={{ site.asset_version }}">
     {% endif %}
     <style>
+      :root {
+        --cw-ink: #1f2d36;
+        --cw-blue: #043361;
+        --cw-link: #1f6f9f;
+        --cw-muted: #536878;
+        --cw-soft: #edf4f8;
+        --cw-line: #d7e3ec;
+        --cw-panel: #f8fbfd;
+        --cw-accent: #b42318;
+      }
+
+      body {
+        background: #fbfcfd;
+        color: var(--cw-muted);
+      }
+
+      .wrapper {
+        width: 1010px;
+      }
+
+      header {
+        width: 250px;
+        padding-top: 3.25em;
+      }
+
+      section {
+        width: 690px;
+        padding-top: 3.25em;
+      }
+
       .image.avatar,
       .image.avatar img {
         border-radius: 0;
       }
 
       .image.avatar img {
-        width: 70%;
+        width: 176px;
+        max-width: 74%;
         height: auto;
         padding: 0;
         object-fit: contain;
       }
 
+      header h1 {
+        margin: 0.85rem 0 0.08rem;
+        color: var(--cw-blue);
+        font-size: 27px;
+        font-weight: 600;
+        line-height: 1.08;
+      }
+
       .profile-meta,
       .profile-links,
       .wechat-contact {
-        max-width: 225px;
+        max-width: 232px;
         margin-left: auto;
         margin-right: auto;
       }
@@ -53,8 +92,18 @@
       .profile-meta {
         display: flex;
         flex-direction: column;
-        gap: 0.38rem;
-        margin-top: 0.65rem;
+        gap: 0.42rem;
+        margin-top: 0.85rem;
+      }
+
+      .profile-chinese-name {
+        margin: 0 0 0.75rem;
+        color: var(--cw-ink);
+        font-family: "Noto Serif SC", "Source Han Serif SC", "Songti SC", "SimSun", serif;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 1.12;
+        text-align: center;
       }
 
       .profile-meta-item {
@@ -62,18 +111,29 @@
         align-items: center;
         justify-content: center;
         gap: 0.45rem;
-        color: #334b5c;
-        font-size: 14.5px;
+        color: var(--cw-muted);
+        font-size: 14.25px;
         line-height: 1.25;
       }
 
+      .profile-meta-item i {
+        color: var(--cw-blue);
+      }
+
       .wechat-contact {
-        margin-top: 0.75rem;
+        margin-top: 0.95rem;
         text-align: center;
       }
 
+      .wechat-label {
+        color: var(--cw-muted);
+        font-size: 13.5px;
+        font-weight: 600;
+        margin-bottom: 0.4rem;
+      }
+
       .wechat-contact img {
-        width: 150px;
+        width: 142px;
         max-width: 100%;
         height: auto;
         border-radius: 0;
@@ -82,39 +142,88 @@
       .profile-links {
         display: flex;
         flex-direction: column;
-        gap: 0.38rem;
-        margin-top: 0.85rem;
+        gap: 0.45rem;
+        margin-top: 0.95rem;
       }
 
       .profile-links a {
         display: flex;
         align-items: center;
         gap: 0.5rem;
-        min-height: 1.95rem;
-        border: 1px solid #d7e3ec;
+        min-height: 2.08rem;
+        border: 1px solid var(--cw-line);
         border-radius: 6px;
-        padding: 0.28rem 0.55rem;
-        color: #043361;
-        background: #fff;
-        font-size: 14.5px;
+        padding: 0.3rem 0.6rem;
+        color: var(--cw-blue);
+        background: var(--cw-panel);
+        font-size: 14.25px;
         font-weight: 600;
         line-height: 1.2;
         text-align: left;
+        transition: border-color 0.15s ease, background 0.15s ease, transform 0.15s ease;
+      }
+
+      .profile-links a:hover {
+        border-color: var(--cw-blue);
+        background: #fff;
+        color: var(--cw-blue);
+        transform: translateY(-1px);
       }
 
       .profile-links i {
         width: 1.1rem;
+        color: var(--cw-blue);
         text-align: center;
+      }
+
+      section h2 {
+        border-bottom: 1px solid var(--cw-line);
+        color: var(--cw-blue);
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 1.15;
+        margin: 1.95rem 0 0.85rem;
+        padding-bottom: 0.28rem;
+      }
+
+      section h2:first-child {
+        margin-top: 0;
+      }
+
+      section p,
+      section li {
+        line-height: 1.62;
+      }
+
+      section ul {
+        padding-left: 1.15rem;
+      }
+
+      section li {
+        margin-bottom: 0.18rem;
+      }
+
+      section strong {
+        color: var(--cw-ink);
+        font-weight: 600;
+      }
+
+      section a {
+        color: var(--cw-link);
+      }
+
+      section a:hover {
+        color: var(--cw-blue);
       }
 
       .page-nav {
         position: fixed;
-        top: 4em;
-        left: calc(50% + 500px);
+        top: 3.45em;
+        left: calc(50% + 530px);
         width: 190px;
-        border-left: 2px solid #d7e3ec;
+        border-left: 2px solid var(--cw-line);
         padding: 0.15rem 0 0.15rem 16px;
-        font-size: 14.5px;
+        font-size: 14px;
         line-height: 1.35;
       }
 
@@ -125,15 +234,45 @@
 
       .page-nav-title {
         margin: 0 0 0.85rem;
-        color: #043361;
+        color: var(--cw-blue);
         font-size: 13px;
-        font-weight: 600;
+        font-weight: 700;
       }
 
       .page-nav a {
-        margin: 0 0 0.72rem;
-        color: #4e6474;
+        margin: 0 0 0.68rem;
+        color: var(--cw-muted);
         font-weight: 500;
+      }
+
+      .page-nav a:hover {
+        color: var(--cw-blue);
+      }
+
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --cw-ink: #eef4f8;
+          --cw-blue: #7bcaf0;
+          --cw-link: #8bd4f4;
+          --cw-muted: #bdcbd4;
+          --cw-soft: #273542;
+          --cw-line: #2d5368;
+          --cw-panel: #252733;
+          --cw-accent: #ff9c8f;
+        }
+
+        body {
+          background: #20212b;
+          color: var(--cw-muted);
+        }
+
+        .profile-links a {
+          background: var(--cw-panel);
+        }
+
+        .profile-links a:hover {
+          background: #20212b;
+        }
       }
 
       @media print, screen and (max-width: 1280px) {
@@ -143,14 +282,45 @@
       }
 
       @media print, screen and (max-width: 960px) {
+        .wrapper,
+        header,
+        section {
+          width: auto;
+        }
+
+        header,
+        section {
+          padding-top: 0;
+        }
+
         .image.avatar img {
           width: 160px;
+        }
+
+        header h1 {
+          font-size: 26px;
+        }
+
+        .profile-chinese-name {
+          font-size: 23px;
         }
       }
 
       @media print, screen and (max-width: 480px) {
         .image.avatar img {
           width: 140px;
+        }
+
+        header h1 {
+          font-size: 25px;
+        }
+
+        .profile-chinese-name {
+          font-size: 22px;
+        }
+
+        section h2 {
+          font-size: 23px;
         }
       }
     </style>
@@ -165,6 +335,9 @@
         {% endif %}
 
         <h1>{{ site.title }}</h1>
+        {% if site.chinese_name %}
+        <div class="profile-chinese-name">({{ site.chinese_name }})</div>
+        {% endif %}
 
         <div class="profile-meta">
           {% if site.position %}
