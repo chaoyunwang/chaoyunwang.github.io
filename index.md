@@ -31,7 +31,7 @@ My research focuses on **Geometric Intelligence for Digital and Physical Worlds*
 
 ## Experience
 
-* **Zhejiang Dahua Technology Co., Ltd.** - *Hangzhou, China*<br>
+* **[Zhejiang Dahua Technology Co., Ltd.](https://www.dahuasecurity.com/)** - *Hangzhou, China*<br>
   Intelligent Algorithm Engineer<br>
   *Apr. 2021 - Jul. 2022*
 
@@ -48,57 +48,57 @@ My research focuses on **Geometric Intelligence for Digital and Physical Worlds*
 <ol class="patent-list">
   <li>
     一种基于逆渲染的单视图文档三维重建与矫正方法及系统<br>
-    <span class="patent-authors">蒋才桂; <strong>王超运*</strong>; 黄全鑫; 郑南宁</span><br>
+    <span class="patent-authors">蒋才桂; <span class="my-author">王超运*</span>; 黄全鑫; 郑南宁</span><br>
     <span class="patent-meta">Chinese Patent Publication, CN122676106A, 2026 · <a href="https://drive.google.com/file/d/1zoCVwi1soAu0d3It1V06fty1JjeNa5U_/view?usp=sharing">PDF</a></span>
   </li>
   <li>
     一种任意文档图像的级联式鲁棒矫正方法<br>
-    <span class="patent-authors">蒋才桂; <strong>王超运*</strong>; 黄全鑫; 郑南宁</span><br>
+    <span class="patent-authors">蒋才桂; <span class="my-author">王超运*</span>; 黄全鑫; 郑南宁</span><br>
     <span class="patent-meta">Chinese Patent Publication, CN121391677A, 2026 · <a href="https://drive.google.com/file/d/1c-ziplph-IN2TSJQsIHRlfaqVgRhZqeZ/view?usp=sharing">PDF</a></span>
   </li>
   <li>
     一种基于轴对齐性质的文档矫正方法<br>
-    <span class="patent-authors">蒋才桂; <strong>王超运*</strong>; 郑南宁</span><br>
+    <span class="patent-authors">蒋才桂; <span class="my-author">王超运*</span>; 郑南宁</span><br>
     <span class="patent-meta">Chinese Patent Publication, CN120544210A, 2025 · <a href="https://drive.google.com/file/d/1JMj0v0Od8bKEydzngFKb8_tomCFhNDZt/view?usp=sharing">PDF</a></span>
   </li>
   <li>
     一种可展曲面优化、设计及模型分片可展逼近的方法<br>
-    <span class="patent-authors">蒋才桂; <strong>王超运*</strong>; 王建磊; 郑南宁</span><br>
+    <span class="patent-authors">蒋才桂; <span class="my-author">王超运*</span>; 王建磊; 郑南宁</span><br>
     <span class="patent-meta">Chinese Patent Publication, CN119167460A, 2024 · <a href="https://drive.google.com/file/d/1O_BXA27TzdDqj4BljKDAOGID28hWB30v/view?usp=sharing">PDF</a></span>
   </li>
   <li>
     一种基于深度学习的网格曲面优化方法<br>
-    <span class="patent-authors">蒋才桂; <strong>王超运*</strong>; 辛景民; 郑南宁</span><br>
+    <span class="patent-authors">蒋才桂; <span class="my-author">王超运*</span>; 辛景民; 郑南宁</span><br>
     <span class="patent-meta">Chinese Patent Publication, CN117392349A, 2024 · <a href="https://drive.google.com/file/d/1AgxEc2CyY6ciAT4GEJSvuLMK6yz_tdYJ/view?usp=sharing">PDF</a></span>
   </li>
   <li>
     一种神经网络训练方法、图像检测方法及其设备<br>
-    <span class="patent-authors"><strong>王超运</strong>; 孙鹤; 潘华东; 殷俊</span><br>
+    <span class="patent-authors"><span class="my-author">王超运</span>; 孙鹤; 潘华东; 殷俊</span><br>
     <span class="patent-meta">Chinese Patent Publication, CN115205094A, 2022 · <a href="https://drive.google.com/file/d/1-4ZJPS_0TEh4Ut_d1oTVaRWJWXkuWydH/view?usp=sharing">PDF</a></span>
   </li>
   <li>
     一种图像处理方法、装置、电子设备和存储介质<br>
-    <span class="patent-authors"><strong>王超运</strong>; 孙鹤; 潘华东; 殷俊</span><br>
+    <span class="patent-authors"><span class="my-author">王超运</span>; 孙鹤; 潘华东; 殷俊</span><br>
     <span class="patent-meta">Chinese Patent Publication, CN115018704A, 2022 · <a href="https://drive.google.com/file/d/1igg_m8JIyA4I58ljaqB-xQNNWLvHpgoj/view?usp=sharing">PDF</a></span>
   </li>
   <li>
     目标对象放置状态的检测方法及相关设备<br>
-    <span class="patent-authors"><strong>王超运</strong>; 孙鹤; 潘华东; 殷俊</span><br>
+    <span class="patent-authors"><span class="my-author">王超运</span>; 孙鹤; 潘华东; 殷俊</span><br>
     <span class="patent-meta">Chinese Patent Publication, CN115223073A, 2022 · <a href="https://drive.google.com/file/d/1XcH5LWnL6iABX3uLaw3gmgCpsPmoM2Js/view?usp=sharing">PDF</a></span>
   </li>
   <li>
     一种数据清洗方法、装置及系统<br>
-    <span class="patent-authors"><strong>王超运</strong>; 殷俊; 潘华东; 孙鹤</span><br>
+    <span class="patent-authors"><span class="my-author">王超运</span>; 殷俊; 潘华东; 孙鹤</span><br>
     <span class="patent-meta">Chinese Patent Publication, CN114638278A, 2022 · <a href="https://drive.google.com/file/d/1Q0HcdYC9oMY80eDsrSRBlNGAPUDBya-x/view?usp=sharing">PDF</a></span>
   </li>
   <li>
     图像获取、目标识别、模型训练方法及设备<br>
-    <span class="patent-authors"><strong>王超运</strong>; 殷俊; 潘华东; 孙鹤</span><br>
+    <span class="patent-authors"><span class="my-author">王超运</span>; 殷俊; 潘华东; 孙鹤</span><br>
     <span class="patent-meta">Chinese Patent Publication, CN113780485A, 2021 · <a href="https://drive.google.com/file/d/1V5HxzhZaML6Yomb24azI9q5_s5AChhGu/view?usp=sharing">PDF</a></span>
   </li>
   <li>
     目标识别方法、电子设备及存储介质<br>
-    <span class="patent-authors"><strong>王超运</strong>; 殷俊; 潘华东; 孙鹤</span><br>
+    <span class="patent-authors"><span class="my-author">王超运</span>; 殷俊; 潘华东; 孙鹤</span><br>
     <span class="patent-meta">Chinese Patent Publication, CN114220041A, 2022 · <a href="https://drive.google.com/file/d/1OcDPv6CKOrxpO1iNukN2fcx-63hV2tF-/view?usp=sharing">PDF</a></span>
   </li>
 </ol>
@@ -116,7 +116,7 @@ My research focuses on **Geometric Intelligence for Digital and Physical Worlds*
 
 * **Excellent Postgraduate**, Xi'an Jiaotong University, 2025
 * **Excellent Postgraduate Cadre**, Xi'an Jiaotong University, 2024
-* **Excellent Graduate**, Harbin Engineering University, 2021
+* **Excellent Graduate**, [Harbin Engineering University](https://english.hrbeu.edu.cn/), 2021
 * **Team Leader**, "Huawei Cup" China Graduate Artificial Intelligence Innovation Competition, 2020
 * **Second Prize**, International College Student Brain-like Computing Competition, 2019
 * **Second Prize**, CCI Cup Medical Science and Technology Innovation Award, 2019
@@ -129,7 +129,7 @@ My research focuses on **Geometric Intelligence for Digital and Physical Worlds*
 
 **形变纸张的可展几何智能优化与视觉恢复研究**<br>
 *Research on Intelligent Optimization of Developable Geometry and Visual Restoration for Deformed Paper*<br>
-Xi'an Jiaotong University, 2026
+[Xi'an Jiaotong University](http://en.xjtu.edu.cn), 2026
 
 <div class="resource-links">
   <a href="https://drive.google.com/uc?export=download&id=1alzXq_eFysKlxwYykvinX3j8r2iT7mE-">PDF</a>
@@ -142,7 +142,7 @@ Xi'an Jiaotong University, 2026
 
 **基于人工智能的多功能乳腺癌诊断分析平台**<br>
 *Multifunctional Breast Cancer Diagnosis and Analysis Platform Based on Artificial Intelligence*<br>
-Harbin Engineering University, 2021
+[Harbin Engineering University](https://english.hrbeu.edu.cn/), 2021
 
 <div class="resource-links">
   <a href="https://kns.cnki.net/kcms2/article/abstract?v=Skeo7MzZydY33J0rQaalVxX4K2_R89GuxennJ07fha-36xNwp6ba9oz3SSAm-4ImS4EXqofw3n12Phaw5UZJ2N6EGrHvRQ-ZdMotpAYJRUacj4PQkOHQYA==&uniplatform=NZKPT&language=gb">CNKI</a>

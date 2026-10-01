@@ -1,6 +1,6 @@
 main:
   - title: Inverse-Rendered Document Reconstruction
-    authors: <strong>Chaoyun Wang</strong>, Quanxin Huang, <a href="https://scholar.google.com/citations?hl=zh-CN&user=iqMe3p8AAAAJ">Nanning Zheng</a>, <a href="https://caiguijiang.github.io/">Caigui Jiang</a>
+    authors: <span class="my-author"><a href="https://chaoyunwang.github.io/">Chaoyun Wang</a></span>, Quanxin Huang, <a href="https://scholar.google.com/citations?hl=zh-CN&user=iqMe3p8AAAAJ">Nanning Zheng</a>, <a href="https://caiguijiang.github.io/">Caigui Jiang</a>
     conference_short:
     conference: Under Review, 2026
     pdf: https://arxiv.org/abs/2511.23150
@@ -10,7 +10,7 @@ main:
     image: ./assets/img/MM2026.png
 
   - title: Cascaded Robust Rectification for Arbitrary Document Images
-    authors: <strong>Chaoyun Wang</strong>, Quanxin Huang, <a href="https://jdily.github.io/">I-Chao Shen</a>, <a href="https://www-ui.is.s.u-tokyo.ac.jp/~takeo/">Takeo Igarashi</a>, <a href="https://scholar.google.com/citations?hl=zh-CN&user=iqMe3p8AAAAJ">Nanning Zheng</a>, <a href="https://caiguijiang.github.io/">Caigui Jiang</a>
+    authors: <span class="my-author"><a href="https://chaoyunwang.github.io/">Chaoyun Wang</a></span>, Quanxin Huang, <a href="https://jdily.github.io/">I-Chao Shen</a>, <a href="https://www-ui.is.s.u-tokyo.ac.jp/~takeo/">Takeo Igarashi</a>, <a href="https://scholar.google.com/citations?hl=zh-CN&user=iqMe3p8AAAAJ">Nanning Zheng</a>, <a href="https://caiguijiang.github.io/">Caigui Jiang</a>
     conference_short: TMM
     conference: IEEE Transactions on Multimedia, 2026
     pdf: https://arxiv.org/abs/2511.23150
@@ -20,7 +20,7 @@ main:
     image: ./assets/img/tmm.png
 
   - title: Axis-Aligned Document Dewarping
-    authors: <strong>Chaoyun Wang</strong>, <a href="https://jdily.github.io/">I-Chao Shen</a>, <a href="https://www-ui.is.s.u-tokyo.ac.jp/~takeo/">Takeo Igarashi</a>, <a href="https://caiguijiang.github.io/">Caigui Jiang</a>
+    authors: <span class="my-author"><a href="https://chaoyunwang.github.io/">Chaoyun Wang</a></span>, <a href="https://jdily.github.io/">I-Chao Shen</a>, <a href="https://www-ui.is.s.u-tokyo.ac.jp/~takeo/">Takeo Igarashi</a>, <a href="https://caiguijiang.github.io/">Caigui Jiang</a>
     conference_short: AAAI
     conference: AAAI 2026 (Oral, top4.5%)
     pdf: https://arxiv.org/abs/2507.15000
@@ -30,7 +30,7 @@ main:
     image: ./assets/img/AAAI2026.png
 
   - title: Interactive Design of Developable Surfaces by Patch-based Learning
-    authors: <strong>Chaoyun Wang</strong>, Jianlei Wang, <a href="https://scholar.google.com/citations?hl=zh-CN&user=WbG27wQAAAAJ">Chengcheng Tang</a>, <a href="https://scholar.google.com/citations?hl=zh-CN&user=iqMe3p8AAAAJ">Nanning Zheng</a>, <a href="https://caiguijiang.github.io/">Caigui Jiang</a>
+    authors: <span class="my-author"><a href="https://chaoyunwang.github.io/">Chaoyun Wang</a></span>, <a href="https://jianleiwang.github.io/">Jianlei Wang</a>, <a href="https://scholar.google.com/citations?hl=zh-CN&user=WbG27wQAAAAJ">Chengcheng Tang</a>, <a href="https://scholar.google.com/citations?hl=zh-CN&user=iqMe3p8AAAAJ">Nanning Zheng</a>, <a href="https://caiguijiang.github.io/">Caigui Jiang</a>
     conference_short: CAD
     conference: Computer-Aided Design, 2025
     pdf: https://www.sciencedirect.com/science/article/pii/S0010448525001319
@@ -40,7 +40,7 @@ main:
     image: ./assets/img/CHI2025.png
 
   - title: "GSO-Net: Grid Surface Optimization via Learning Geometric Constraints"
-    authors: <strong>Chaoyun Wang</strong>, <a href="https://gr.xjtu.edu.cn/en/web/jxin/2">Jingmin Xin</a>, <a href="https://scholar.google.com/citations?hl=zh-CN&user=iqMe3p8AAAAJ">Nanning Zheng</a>, <a href="https://caiguijiang.github.io/">Caigui Jiang</a>
+    authors: <span class="my-author"><a href="https://chaoyunwang.github.io/">Chaoyun Wang</a></span>, <a href="https://gr.xjtu.edu.cn/en/web/jxin/2">Jingmin Xin</a>, <a href="https://scholar.google.com/citations?hl=zh-CN&user=iqMe3p8AAAAJ">Nanning Zheng</a>, <a href="https://caiguijiang.github.io/">Caigui Jiang</a>
     conference_short: AAAI
     conference: AAAI 2024
     pdf: https://ojs.aaai.org/index.php/AAAI/article/view/28656
@@ -51,7 +51,7 @@ main:
     image: ./assets/img/GSO-Net.png
 
   - title: "Using deep learning to screen OCTA images for hypertension to reduce the risk of serious complications"
-    authors: Yiheng Ding, Ziqiang Wei, <strong>Chaoyun Wang</strong>, Xinyue Li, Bingbing Li, Xueting Liu, Zhijie Fu, Hongwei Mo, Hong Zhang
+    authors: Yiheng Ding, Ziqiang Wei, <span class="my-author"><a href="https://chaoyunwang.github.io/">Chaoyun Wang</a></span>, Xinyue Li, Bingbing Li, Xueting Liu, Zhijie Fu, <a href="https://faculty.hrbeu.edu.cn/mohongwei">Hongwei Mo</a>, <a href="https://www.jove.com/author/82053/hong-zhang">Hong Zhang</a>
     conference_short:
     conference: Frontiers in Cell and Developmental Biology, 2025
     pdf: https://www.frontiersin.org/journals/cell-and-developmental-biology/articles/10.3389/fcell.2025.1581785/full
@@ -62,7 +62,7 @@ main:
     image: ./assets/img/Frontiers_in_cell.jpg
 
   - title: "Evaluating the Accuracy of Breast Cancer and Molecular Subtype Diagnosis by Ultrasound Image Deep Learning Model"
-    authors: Xianyu Zhang*, Hui Li*, <strong>Chaoyun Wang*</strong>, Wen Cheng, Yuntao Zhu, Dapeng Li, Hui Jing, Shu Li, Jiahui Hou, Jiaying Li, Yingpu Li, Yashuang Zhao, Hongwei Mo, Da Pang (* Equal contribution)
+    authors: Xianyu Zhang*, Hui Li*, <span class="my-author"><a href="https://chaoyunwang.github.io/">Chaoyun Wang</a>*</span>, Wen Cheng, Yuntao Zhu, Dapeng Li, Hui Jing, Shu Li, Jiahui Hou, Jiaying Li, Yingpu Li, Yashuang Zhao, <a href="https://faculty.hrbeu.edu.cn/mohongwei">Hongwei Mo</a>, <a href="https://loop.frontiersin.org/people/705458/overview">Da Pang</a> (* Equal contribution)
     conference_short:
     conference: Frontiers in Oncology, 2021
     pdf: https://www.frontiersin.org/journals/oncology/articles/10.3389/fonc.2021.623506/full
@@ -73,7 +73,7 @@ main:
     image: ./assets/img/Frontiers_in_oncology.jpg
 
   - title: "A Method for Localization and Classification of Breast Ultrasound Tumors"
-    authors: Wanying Mo, Yuntao Zhu, <strong>Chaoyun Wang</strong>
+    authors: Wanying Mo, Yuntao Zhu, <span class="my-author"><a href="https://chaoyunwang.github.io/">Chaoyun Wang</a></span>
     conference_short: ICSI
     conference: Advances in Swarm Intelligence 11th International Conference, <strong>(ICSI)</strong>, 2020
     pdf: https://link.springer.com/chapter/10.1007/978-3-030-53956-6_52
@@ -84,7 +84,7 @@ main:
     image: ./assets/img/ICSI2020.jpg
 
   - title: "Breast Ultrasound Image Analysis based on Transfer Learning"
-    authors: <strong>Chaoyun Wang</strong>, Hongwei Mo
+    authors: <span class="my-author"><a href="https://chaoyunwang.github.io/">Chaoyun Wang</a></span>, <a href="https://faculty.hrbeu.edu.cn/mohongwei">Hongwei Mo</a>
     conference_short: CSAI
     conference: 4th International Conference on Computer Science and Artificial Intelligence, <strong>(CSAI)</strong>, 2020
     pdf: https://dl.acm.org/doi/abs/10.1145/3445815.3445835
@@ -95,7 +95,7 @@ main:
     image: ./assets/img/CSAI2020.jpg
 
   - title: "Breast cancer diagnosis method based on multitask learning and BI-RADS assessments"
-    authors: <strong>Chaoyun Wang</strong>, Hongwei Mo
+    authors: <span class="my-author"><a href="https://chaoyunwang.github.io/">Chaoyun Wang</a></span>, <a href="https://faculty.hrbeu.edu.cn/mohongwei">Hongwei Mo</a>
     conference_short: CAIH
     conference: Conference on Artificial Intelligence and Healthcare, <strong>(CAIH)</strong>, 2020
     pdf: https://dl.acm.org/doi/abs/10.1145/3433996.3434045
