@@ -29,6 +29,10 @@ My research focuses on **Geometric Intelligence for Digital and Physical Worlds*
   B.Eng. in Electrical Engineering and Automation<br>
   *Sep. 2014 - Jun. 2018*
 
+* **[Anhui Funan No.1 High School](https://www.fn1z.com/)** - *Funan, China*<br>
+  High School Diploma<br>
+  *Sep. 2011 - Jun. 2014*
+
 ## Experience
 
 * **[Zhejiang Dahua Technology Co., Ltd.](https://www.dahuasecurity.com/)** - *Hangzhou, China*<br>
