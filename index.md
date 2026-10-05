@@ -159,7 +159,7 @@ My research focuses on **Geometric Intelligence for Digital and Physical Worlds*
 
 <div class="compact-section" markdown="1">
 
-Outside research, I enjoy **cycling, running, hiking, badminton, and photography**. I am particularly drawn to long-distance journeys and exploring the physical world through both movement and imagery. In 2022 and 2026, I completed long-distance cycling journeys, including over **2,000 km along the Sichuan-Tibet route (G318)**, and in 2023, I completed the **Xi'an Marathon**. I also enjoy aerial photography and have created drone videos documenting more than **20 villages in my hometown**.
+Outside research, I enjoy **cycling, running, hiking, mountaineering, swimming, badminton, and photography**. I am particularly drawn to long-distance journeys and exploring the physical world through both movement and imagery. In 2022 and 2026, I completed long-distance cycling journeys, including over **2,000 km along the Sichuan-Tibet route (G318)**, and in 2023, I completed the **Xi'an Marathon**. I also enjoy aerial photography and have created drone videos documenting more than **20 villages in my hometown**.
 
 These experiences reflect another side of me: a lasting curiosity about the world, an appreciation for its geometry and landscapes, and a willingness to explore beyond familiar boundaries.
 
