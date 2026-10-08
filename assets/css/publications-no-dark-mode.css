@@ -111,6 +111,35 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 
 .publications ol.bibliography li .teaser { display: block; border: 1px solid #d7e3ec; border-radius: 6px; box-shadow: 0 2px 9px rgba(4, 51, 97, 0.08); width: 270px; max-width: 100%; height: auto; margin: 3px 0; object-fit: contain; background: #fff; box-sizing: border-box; }
 
+.thesis-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.15rem;
+  margin: 0.2rem 0 1.35rem;
+}
+
+.thesis-media {
+  flex: 0 0 auto;
+  max-width: 290px;
+}
+
+.thesis-media img {
+  display: block;
+  width: 270px;
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #d7e3ec;
+  border-radius: 6px;
+  box-shadow: 0 2px 9px rgba(4, 51, 97, 0.08);
+  background: #fff;
+  box-sizing: border-box;
+}
+
+.thesis-content {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
 @media print, screen and (max-width: 640px) {
   .publications {
     margin-top: 1.25rem;
@@ -149,5 +178,17 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
   .publications ol.bibliography li .author,
   .publications ol.bibliography li .periodical {
     overflow-wrap: anywhere;
+  }
+
+  .thesis-row {
+    flex-direction: column;
+    gap: 0.65rem;
+  }
+
+  .thesis-media,
+  .thesis-content {
+    width: 100%;
+    max-width: 100%;
+    flex: 0 0 auto;
   }
 }

@@ -47,6 +47,51 @@ My research focuses on **Geometric Intelligence for Digital and Physical Worlds*
 
 {% include_relative _includes/publications.md %}
 
+## Ph.D. Dissertation
+
+<div class="thesis-row">
+  <div class="thesis-media">
+    <img src="./assets/img/phd-dissertation-figure.png?v={{ site.asset_version }}" alt="Ph.D. dissertation visual summary">
+  </div>
+  <div class="thesis-content" markdown="1">
+
+**形变纸张的可展几何智能优化与视觉恢复研究**<br>
+*Research on Intelligent Optimization of Developable Geometry and Visual Restoration for Deformed Paper*<br>
+[Xi'an Jiaotong University](http://en.xjtu.edu.cn), 2026
+
+<div class="resource-links">
+  <a href="https://drive.google.com/uc?export=download&id=1alzXq_eFysKlxwYykvinX3j8r2iT7mE-">PDF</a>
+  <a href="https://drive.usercontent.google.com/download?id=1O7XpFQLc4BHCyP_wSjZYLGJYazwB0Qo6&export=download&authuser=0">PPT</a>
+  <a href="https://drive.google.com/file/d/18DdnT12o5NU-AfljNREDyjmNncFPBrn5/view?usp=sharing">Preview PDF</a>
+  <a href="https://drive.google.com/file/d/1nvwHovJALhwVO0V3k75WXvTltjGHnRw9/view?usp=sharing">Preview PPT</a>
+</div>
+
+  </div>
+</div>
+
+## Master's Thesis
+
+<div class="thesis-row">
+  <div class="thesis-media">
+    <img src="./assets/img/masters-thesis-figure.png?v={{ site.asset_version }}" alt="Master's thesis platform visual summary">
+  </div>
+  <div class="thesis-content" markdown="1">
+
+**基于人工智能的多功能乳腺癌诊断分析平台**<br>
+*Multifunctional Breast Cancer Diagnosis and Analysis Platform Based on Artificial Intelligence*<br>
+[Harbin Engineering University](https://english.hrbeu.edu.cn/), 2021
+
+<div class="resource-links">
+  <a href="https://kns.cnki.net/kcms2/article/abstract?v=Skeo7MzZydY33J0rQaalVxX4K2_R89GuxennJ07fha-36xNwp6ba9oz3SSAm-4ImS4EXqofw3n12Phaw5UZJ2N6EGrHvRQ-ZdMotpAYJRUacj4PQkOHQYA==&uniplatform=NZKPT&language=gb">CNKI</a>
+  <a href="https://drive.google.com/file/d/1cTnS0bcDvAlaAp3HV3i_yqSUrCi_JNYu/view?usp=sharing">PDF</a>
+  <a href="https://docs.google.com/presentation/d/10qVcWg3ehN37vySfuJOWIkxt_4N842nG/edit?usp=sharing&ouid=115573259815305037124&rtpof=true&sd=true">PPT</a>
+  <a href="https://drive.google.com/file/d/1o6RVkOwdBFp-m6Z_x8DpmFhWAbu9oIXx/view?usp=sharing">Video</a>
+</div>
+
+  </div>
+</div>
+
+
 ## Patents
 
 <ol class="patent-list">
@@ -128,32 +173,6 @@ My research focuses on **Geometric Intelligence for Digital and Physical Worlds*
 * **Second Prize**, Ground Reconnaissance Project, National Scientific Research Aerospace Model Championship, 2016
 * **Third Prize**, Scientific and Technological Innovation, National Scientific Research Aerospace Model Championship, 2016
 * **Second Prize**, Vertical Takeoff and Landing Project, National Scientific Research Aerospace Model Championship, 2015
-
-## Ph.D. Dissertation
-
-**形变纸张的可展几何智能优化与视觉恢复研究**<br>
-*Research on Intelligent Optimization of Developable Geometry and Visual Restoration for Deformed Paper*<br>
-[Xi'an Jiaotong University](http://en.xjtu.edu.cn), 2026
-
-<div class="resource-links">
-  <a href="https://drive.google.com/uc?export=download&id=1alzXq_eFysKlxwYykvinX3j8r2iT7mE-">PDF</a>
-  <a href="https://drive.usercontent.google.com/download?id=1O7XpFQLc4BHCyP_wSjZYLGJYazwB0Qo6&export=download&authuser=0">PPT</a>
-  <a href="https://drive.google.com/file/d/18DdnT12o5NU-AfljNREDyjmNncFPBrn5/view?usp=sharing">Preview PDF</a>
-  <a href="https://drive.google.com/file/d/1nvwHovJALhwVO0V3k75WXvTltjGHnRw9/view?usp=sharing">Preview PPT</a>
-</div>
-
-## Master's Thesis
-
-**基于人工智能的多功能乳腺癌诊断分析平台**<br>
-*Multifunctional Breast Cancer Diagnosis and Analysis Platform Based on Artificial Intelligence*<br>
-[Harbin Engineering University](https://english.hrbeu.edu.cn/), 2021
-
-<div class="resource-links">
-  <a href="https://kns.cnki.net/kcms2/article/abstract?v=Skeo7MzZydY33J0rQaalVxX4K2_R89GuxennJ07fha-36xNwp6ba9oz3SSAm-4ImS4EXqofw3n12Phaw5UZJ2N6EGrHvRQ-ZdMotpAYJRUacj4PQkOHQYA==&uniplatform=NZKPT&language=gb">CNKI</a>
-  <a href="https://drive.google.com/file/d/1cTnS0bcDvAlaAp3HV3i_yqSUrCi_JNYu/view?usp=sharing">PDF</a>
-  <a href="https://docs.google.com/presentation/d/10qVcWg3ehN37vySfuJOWIkxt_4N842nG/edit?usp=sharing&ouid=115573259815305037124&rtpof=true&sd=true">PPT</a>
-  <a href="https://drive.google.com/file/d/1o6RVkOwdBFp-m6Z_x8DpmFhWAbu9oIXx/view?usp=sharing">Video</a>
-</div>
 
 ## Beyond Research
 
